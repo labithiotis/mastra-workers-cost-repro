@@ -1,0 +1,19 @@
+{
+  "name": "mastra-workers-cost-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "node": "tsx src/node.ts",
+    "worker": "wrangler dev --port 8799"
+  },
+  "dependencies": {
+    "@mastra/core": "1.84.0",
+    "@mastra/observability": "1.24.1",
+    "ai": "7.0.176",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "tsx": "4.23.15",
+    "wrangler": "4.164.0"
+  }
+}
